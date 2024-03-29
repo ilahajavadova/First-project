@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.container .nav {
+  padding: 30px 0;
+  display: flex;
+  Justify-content: space-between;
+  align-items: center;
+}
+.container .nav .navlist {
+  display: flex;
+  gap: 20px;
+}
+.container .nav .navlist_item {
+  list-style: none;
+}
+.container .nav .navlist_item a {
+  text-decoration: none;
+}
+
+.ilahe {
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.ilahe .item1 {
+  grid-area: 1/1/span 2/span 2;
+  background: url("../../images/left-banner-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ilahe .item1 .mybtn {
+  width: 170px;
+  height: 30px;
+}
+.ilahe .item1 h1 {
+  font-size: 70px;
+  color: white;
+}
+.ilahe .item1 p {
+  font-size: 30px;
+  color: white;
+}
+.ilahe .item2 {
+  grid-area: 1/3/span 1/span 1;
+  background: url("../../images/baner-right-image-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ilahe .item2 h1 {
+  font-size: 40px;
+  color: white;
+}
+.ilahe .item2 p {
+  font-size: 20px;
+  color: white;
+}
+.ilahe .item3 {
+  grid-area: 1/4/span 1/span 1;
+  background: url("../../images/baner-right-image-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ilahe .item3 h1 {
+  font-size: 40px;
+  color: white;
+}
+.ilahe .item3 p {
+  font-size: 20px;
+  color: white;
+}
+.ilahe .item4 {
+  grid-area: 2/3/span 1/span 1;
+  background: url("../../images/baner-right-image-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ilahe .item4 h1 {
+  font-size: 40px;
+  color: white;
+}
+.ilahe .item4 p {
+  font-size: 20px;
+  color: white;
+}
+.ilahe .item5 {
+  grid-area: 2/4/span 1/span 1;
+  background: url("../../images/baner-right-image-04.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ilahe .item5 h1 {
+  font-size: 40px;
+  color: white;
+}
+.ilahe .item5 p {
+  font-size: 20px;
+  color: white;
+}
+.ilahe .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.ilahe .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  height: 100%;
+  margin-left: 100px;
+}
+
+.hello {
+  margin-top: 100px;
+}
+
+.aydan {
+  height: 700px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 150px;
+}
+.aydan .box1 {
+  grid-area: 1/1/span 2;
+  background: url("../../images/women-01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aydan .box2 {
+  grid-area: 1/2/span 2;
+  background: url("../../images/women-02.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aydan .box3 {
+  grid-area: 1/3/span 2;
+  background: url("../../images/women-03.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}/*# sourceMappingURL=main.css.map */
