@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /** @format */
+  #header {
+    background-color: black;
+    color: white;
+    height: 400px;
+    width: 100%;
+  }
+  #header ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+  }
+  #header ul li {
+    margin-right: 10px;
+  }
+  #header .main {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  #header .main .box {
+    width: 650px;
+  }
+  
+  #section1 a {
+    text-decoration: none;
+  }
+  #section1 .icon {
+    width: 64px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #section3 span {
+    font-size: 18px;
+  }/*# sourceMappingURL=main.css.map */
+
+
+
+
+
+  
+  .box0{
+    border: 1px solid gray;
+    max-width: 600px;
+    height: 120px;
+    border-radius: 10px;
+}
+.box1{
+ border: 1px solid gray;
+max-width: 600px;
+height: 120px;
+border-radius: 10px;
+}
+ .customer{
+    color: blue;
+ }
+ .contact {
+    padding-top: var(--main-padding);
+    padding-bottom: var(--main-padding);
+    background-color: #f8f9fa;
+    text-align: center; 
+    
+}
+.contact .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contact .container i {
+    color: var(--main-color);
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.contact .container h2 {
+    color: var(--bacl-color);
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 6px;  
+    margin-bottom: 0;  
+}
+.contact .container p {
+    color: #6c757d;
+    margin-top: 5px;
+    font-size: 19px;
+}
+.contact .container input,
+textarea {
+    display: block;
+    width: 50%;
+    margin-bottom: 30px;
+    height: 60px;
+    padding: 20px;
+    font-size: 17px;
+    border-radius: 4px;
+    border-style: inset;
+    border-color: white;
+}
+.contact .container textarea {
+    height: 180px;
+}
+.fa-star{
+    color: orange;
+}
+.footer {
+background-color: rgb(32, 32, 32);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p {
+    color: white;
+}
